@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .form-group {
+            margin-bottom: 12px;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+        }
+
+        button {
+            margin-left: 120px;
+            color: rgb(93, 59, 14);
+            padding: 5px 10px;
+        }
+    </style>
+
+<body>
+
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="course">Select Course</label>
+            <select id="course" name="course" required>
+                <option value="">-- Choose a Course --</option>
+                <option value="BCA">BCA</option>
+                <option value="BSc">B.Sc</option>
+                <option value="BCom">B.Com</option>
+                <option value="BA">B.A</option>
+            </select>
+        </div>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+
+</html> 
+
+
